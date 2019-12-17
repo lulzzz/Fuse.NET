@@ -1,5 +1,5 @@
 <p align="center">
-![logo.png]
+<img src="https://github.com/kurozael/Fuse.NET/blob/master/logo.png?raw=true"/>
 </p>
 
 ## Introduction
@@ -24,20 +24,20 @@ var input = new List<Book>();
 
 input.Add(new Book
 {
-	title = "The code of the wooster",
-	author = "aa"
+	title = "The Code of The Wooster",
+	author = "Bob James"
 });
 
 input.Add(new Book
 {
-	title = "the wooster code",
-	author = "aa"
+	title = "The Wooster Code",
+	author = "Rick Martin"
 });
 
 input.Add(new Book
 {
-	title = "The code",
-	author = "aa"
+	title = "The Code",
+	author = "Jimmy Charles"
 });
 
 input.Add(new Book
@@ -63,7 +63,7 @@ var fuse = new Fuse<Book>(input, opt);
 fuse.AddKey("title");
 fuse.AddKey("author");
 
-var output = fuse.Search("wooster");
+var output = fuse.Search("woo");
 
 output.ForEach((a) =>
 {
@@ -75,7 +75,7 @@ output.ForEach((a) =>
 		a.matches.ForEach((b) =>
 		{
 			Debug.Log("{Match}");
-			Debug.Log(b.key + ": " + b.value + " / " + b.indicies.Count);
+			Debug.Log(b.key + ": " + b.value + " (Indicies: " + b.indicies.Count + ")");
 		});
 	}
 });
@@ -84,7 +84,6 @@ output.ForEach((a) =>
 ## Installation
 
 Drag and drop the Fuse.NET folder directly into your C# project.
-```
 
 ## Contributing
 
