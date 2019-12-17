@@ -1,2 +1,3 @@
 # Fuse.NET
-A C# port of Kiro Risk's fuzzy-search library Fuse.js ( https://github.com/krisk/Fuse )
+A lightweight zero-dependency C# port of the Fuse.js fuzzy-search library created by [@krisk](https://github.com/krisk) at https://github.com/krisk/Fuse
+
