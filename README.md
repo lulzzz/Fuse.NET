@@ -6,9 +6,15 @@
 
 A lightweight zero-dependency C# port of the Fuse.js fuzzy-search library created by [@krisk](https://github.com/krisk) at https://github.com/krisk/Fuse
 
+**I ported this to C# because I couldn't find anything like it, and because I love Fuse.js.**
+
 ## Licenses
 
 You can find the original license in the `LICENSE.ORIGINAL` file, and the license for this derivative work in the `LICENSE.DERIVATIVE` file.
+
+## Documentation
+
+At this time there is no documentation for Fuse.NET, but as it is a direct port of Fuse.js, you can find all the information you need on the Fuse.js website at https://fusejs.io/
 
 ## Example Usage
 
